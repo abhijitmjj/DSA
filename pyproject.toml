@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "dsa"
+version = "0.1.0"
+description = "DSA practice"
+authors = ["Abhijit Gupta <abhijit038@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+hypothesis = "^6.108.5"
+bottle = "^0.12.25"
+requests = "^2.32.3"
+numpy = "^2.0.1"
+scipy = "^1.14.0"
+ipython = "^8.26.0"
+ipykernel = "^6.29.5"
+jupyterlab = "^4.2.4"
+pandas = "^2.2.2"
+more-itertools = "^10.3.0"
+mypy = "^1.11.1"
+pyright = "^1.1.374"
+black = "^24.4.2"
+matplotlib = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
