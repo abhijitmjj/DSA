@@ -23,8 +23,15 @@ mypy = "^1.11.1"
 pyright = "^1.1.374"
 black = "^24.4.2"
 matplotlib = "^3.9.1"
+returns = "^0.23.0"
+nitpick = "^0.35.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+plugins = ["returns.contrib.mypy.returns_plugin"]
+strict = true
+warn_unreachable = true
