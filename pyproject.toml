@@ -5,11 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12.4"
 dependencies = [
-    "azure-ai-ml>=1.27.1",
-    "azure-identity>=1.23.0",
-    "equinox>=0.12.2",
+    "ipykernel>=6.29.5",
     "ipython>=9.2.0",
-    "jax[cuda12]>=0.6.1",
     "jupyterlab>=4.4.2",
     "pytest>=8.4.0",
     "pytest-mock>=3.14.1",
